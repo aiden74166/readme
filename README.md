@@ -14,7 +14,7 @@ mtr  127.0.0.1
 
 
 ## firewall
-
+```
 开放端口
 永久的开放需要的端口
 sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
@@ -36,7 +36,7 @@ systemctl status firewalld
 systemctl enable firewalld
 systemctl start firewalld
 systemctl status firewalld
-
+```
 
 
 
