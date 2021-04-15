@@ -44,4 +44,11 @@ systemctl status firewalld
 ${(data.createTime?datetime)!}
 ```
 
+## telegram
+```
+https://api.telegram.org/bot1111114:AAGuf-qMzKxxxxxxxxxxxxrBVBW_zBs/sendMessage
+
+curl -X POST "${TELEGRAM_EXE}"  -d "chat_id=-4251111111&text=操作成功"
+```
+
 
