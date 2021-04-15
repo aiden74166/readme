@@ -38,6 +38,10 @@ systemctl start firewalld
 systemctl status firewalld
 ```
 
+## freemarker
 
+```
+${(data.createTime?datetime)!}
+```
 
 
