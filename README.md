@@ -56,4 +56,10 @@ curl -X POST "${TELEGRAM_EXE}"  -d "chat_id=-4251111111&text=操作成功"
 MP4 转 MP3
 ffmpeg -i videoplayback.mp4  videoplayback.mp3
 ```
+## Jenkins
 
+```
+Subversion @HEAD
+
+节点列表 master 节点属性 环境变量 BUILD_ID DontKillMe
+```
