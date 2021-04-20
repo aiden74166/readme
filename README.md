@@ -55,6 +55,7 @@ curl -X POST "${TELEGRAM_EXE}"  -d "chat_id=-4251111111&text=操作成功"
    <artifactId>java-telegram-bot-api</artifactId>
    <version>5.1.0</version>
 </dependency>
+https://github.com/pengrad/java-telegram-bot-api
 ```
 
 ## ffmpeg
