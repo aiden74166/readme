@@ -70,7 +70,7 @@ Subversion @HEAD
 
 节点列表 master 节点属性 环境变量 BUILD_ID DontKillMe
 
-ps -ef |grep java| grep "server.port=10755" | grep -v grep |awk '{print $2}'|xargs kill -9 1>/dev/null 2>&1 | exit 0
-nohup java -jar ${appweb}.jar --server.port=10755 --spring.profiles.active=${spring_profiles_active} >/dev/null 2>&1 &
+ps -ef |grep java| grep "server.port=8080" | grep -v grep |awk '{print $2}'|xargs kill -9 1>/dev/null 2>&1 | exit 0
+nohup java -jar ${appweb}.jar --server.port=8080 --spring.profiles.active=${spring_profiles_active} >/dev/null 2>&1 &
 
 ```
