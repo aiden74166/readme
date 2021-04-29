@@ -81,4 +81,17 @@ nohup java -jar ${appweb}.jar --server.port=8080 --spring.profiles.active=${spri
 ```
 @Profile(value = { "task", "local" })
 
+@EnableScheduling
+@Scheduled(fixedDelay = 1000 * 60 * 5L, initialDelay = 30 * 1000)
+@Scheduled(cron = "0 15 4 * * ?")
+
+@Configuration
+//定时任务调用一个线程池中的线程。
+public class ScheduleConfig implements SchedulingConfigurer {
+	@Override
+	public void configureTasks(ScheduledTaskRegistrar scheduledTaskRegistrar) {
+		// 参数传入一个size为10的线程池
+		scheduledTaskRegistrar.setScheduler(Executors.newScheduledThreadPool(10));
+	}
+}
 ```
