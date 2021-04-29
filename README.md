@@ -74,3 +74,11 @@ ps -ef |grep java| grep "server.port=8080" | grep -v grep |awk '{print $2}'|xarg
 nohup java -jar ${appweb}.jar --server.port=8080 --spring.profiles.active=${spring_profiles_active} >/dev/null 2>&1 &
 
 ```
+## springboot
+
+@ 标签
+
+```
+@Profile(value = { "task", "local" })
+
+```
