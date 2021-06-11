@@ -95,3 +95,10 @@ public class ScheduleConfig implements SchedulingConfigurer {
 	}
 }
 ```
+
+
+## ip
+
+```
+	https://github.com/out0fmemory/qqwry.dat.git
+```
