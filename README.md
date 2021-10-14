@@ -102,3 +102,7 @@ public class ScheduleConfig implements SchedulingConfigurer {
 ```
 	https://github.com/out0fmemory/qqwry.dat.git
 ```
+
+## 图片压缩
+
+https://tinypng.com/
