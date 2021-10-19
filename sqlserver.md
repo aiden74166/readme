@@ -28,3 +28,12 @@ AND session_Id NOT IN (@@SPID) -- Ignore this current statement.
 ORDER BY 1, 2
 
 ```
+
+
+## 查看当前死锁
+```sql
+
+ 
+SELECT request_session_id spid,OBJECT_NAME(	resource_associated_entity_id) tableName FROM sys.dm_tran_locks WHERE resource_type = 'OBJECT'
+
+```
