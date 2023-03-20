@@ -106,3 +106,7 @@ public class ScheduleConfig implements SchedulingConfigurer {
 ## 图片压缩
 
 https://tinypng.com/
+
+## jdk版本切换
+
+alternatives --config java
