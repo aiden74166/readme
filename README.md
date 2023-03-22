@@ -110,3 +110,10 @@ https://tinypng.com/
 ## jdk版本切换
 
 alternatives --config java
+
+## 纸飞机
+
+https://api.telegram.org/bot6141414:AAGRf4vg139CxQogNru_Z7Uw/getUpdates
+nodeid=`cat test.txt`
+curl -X POST "https://api.telegram.org/bot6114:AAGRf9CxQogNru_Z7Uw/sendMessage" -d "chat_id=-937075&text=$nodeid"
+
