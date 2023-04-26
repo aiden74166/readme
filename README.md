@@ -117,3 +117,8 @@ https://api.telegram.org/bot6141414:AAGRf4vg139CxQogNru_Z7Uw/getUpdates
 nodeid=`cat test.txt`
 curl -X POST "https://api.telegram.org/bot6114:AAGRf9CxQogNru_Z7Uw/sendMessage" -d "chat_id=-937075&text=$nodeid"
 
+## 图片在linux不显示
+
+yum install fontconfig
+fc-cache --force
+
