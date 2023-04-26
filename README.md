@@ -119,6 +119,8 @@ curl -X POST "https://api.telegram.org/bot6114:AAGRf9CxQogNru_Z7Uw/sendMessage" 
 
 ## 图片在linux不显示
 
+···
 yum install fontconfig
 fc-cache --force
+···
 
