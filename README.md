@@ -124,3 +124,7 @@ yum install fontconfig
 fc-cache --force
 ···
 
+## centos 只有root进桌面_物理机安装Centos7后，空间只有50G问题
+
+原文链接：https://blog.csdn.net/weixin_29603829/article/details/112148313
+
