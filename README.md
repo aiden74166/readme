@@ -128,3 +128,6 @@ fc-cache --force
 
 原文链接：https://blog.csdn.net/weixin_29603829/article/details/112148313
 
+## cmd 复制
+
+cd D:\游戏服务器 && for /d %i in (*) do XCOPY D:\游戏登录服务器\ServerParameter.ini "D:\游戏服务器\%i"
